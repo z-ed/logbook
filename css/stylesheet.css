@@ -18,36 +18,35 @@ h1 {
     font-style: normal;
     font-size: 112px;
     text-align: center;
-    color: #9b111e;
+    color: #FFFFFF;
     z-index: 2;
     text-shadow: 2px 2px 4px #000000;
-
-
 }
-div.polaroid {
-  width: 20%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: auto;
-
-
-  padding: 10px;
-}
-
-img {width: 50%}
-
-div.container {
-  align-content: center;
+p, a, p a {
+  font-family: 'one_dayregular';
+  src: url('oneday-webfont.woff2') format('woff2'),
+       url('oneday-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 72px;
   text-align: center;
+  align-content: center;
+  color: #9b111e;
+  z-index: 2;
+  text-shadow: 2px 2px 4px #000000;
+  transition: all .2s ease-in-out;
+}
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-#img0 {
-  -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
-  filter: blur(10px);
-  color: #9b111e;
-}
-#img1 {
-  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(5px);
-  color: #9b111e;
+a:hover, p:hover {
+  transform: scale(1.1);
 }
