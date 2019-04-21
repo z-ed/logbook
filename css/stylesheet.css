@@ -10,6 +10,9 @@
     font-style: normal;
 
 }
+body {
+  overflow: hidden;
+}
 h1 {
     font-family: 'one_dayregular';
     src: url('oneday-webfont.woff2') format('woff2'),
@@ -22,7 +25,7 @@ h1 {
     z-index: 2;
     text-shadow: 2px 2px 4px #000000;
 }
-p, a, p a {
+p, a {
   font-family: 'one_dayregular';
   src: url('oneday-webfont.woff2') format('woff2'),
        url('oneday-webfont.woff') format('woff');
